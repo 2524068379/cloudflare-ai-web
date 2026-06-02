@@ -11,6 +11,9 @@ importers:
       '@ai-sdk/google':
         specifier: ^3.0.61
         version: 3.0.80(zod@4.4.3)
+      '@ai-sdk/provider':
+        specifier: ^3.0.10
+        version: 3.0.10
       '@ai-sdk/react':
         specifier: ^3.0.160
         version: 3.0.196(react@19.2.5)(zod@4.4.3)
