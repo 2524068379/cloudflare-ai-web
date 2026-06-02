@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsightsWrapper } from "@/components/speed-insights-wrapper";
 import AppSidebar from "@/components/app-sidebar";
 import {
   SidebarInset,
@@ -43,7 +43,7 @@ export default async function RootLayout({
           </SidebarProvider>
         </ThemeProvider>
         <Analytics />
-        <SpeedInsights />
+        <SpeedInsightsWrapper />
       </body>
     </html>
   );
